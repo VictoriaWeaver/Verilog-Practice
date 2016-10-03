@@ -25,6 +25,6 @@ module full_adder(
 	
 	assign sum <= (in1 xor in2 xor cin);
 	assign cout <= (in1 and in2) or (in1 and cin) or (in2 and cin);
-	end
 	
+
 endmodule
